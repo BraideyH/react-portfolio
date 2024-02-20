@@ -82,3 +82,30 @@ ul {
 li {
   margin: 0 15px;
 }
+.about-me {
+  text-align: center;
+  color:rgb(127, 92, 44);
+}
+.projects-text {
+  text-align: center;
+  color:rgb(127, 92, 44);
+}
+.project-cards {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  padding: 10px;
+}
+
+.card {
+  flex: 1 1 calc(25% - 20px); /* Set width for each card (adjust as needed) */
+  margin: 10px; /* Add margin around each card */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px); /* Set width for each card on smaller screens */
+  }
+}
