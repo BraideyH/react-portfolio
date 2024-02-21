@@ -8,6 +8,9 @@ import passwordGenerator from './assets/password-generator.png';
 import codingQuiz from './assets/coding-quiz.png';
 import portfolio from './assets/portfolio.png';
 import resume from './assets/2024-resume.pdf';
+import githubLogo from './assets/github-mark.png';
+import linkedInLogo from './assets/LI-In-bug.png';
+import downloadPNG from './assets/document-download-icon.png'
 
 function App() {
   return (
@@ -84,14 +87,18 @@ function App() {
     </div>
     <button type="submit">Submit</button>
 </form>
+<div>
+  <a href="https://github.com/BraideyH?tab=overview&from=2023-12-01&to=2023-12-31"><img className="logo-icons" src={githubLogo} alt="Github logo"/></a>
+  <a href="https://www.linkedin.com/in/braidey-hooper-584224290/"><img className="logo-icons" src={linkedInLogo} alt="LinkedIn logo"/></a>
+</div>
 <div id="error-message"></div>
       </div>
       <div className="about-me">
             <h2>Resume</h2>
             <p>Download my resume:</p>
-            <a href={resume} id="resume-section" download>Download Resume</a>
+            <a href={resume} id="resume-section" download><img className="download-icon" src={downloadPNG}/></a>
             <h3>Proficiencies</h3>
-            <ul>
+            <ul className='bottom-padding'>
                 <li>React.js</li>
                 <li>JavaScript</li>
                 <li>HTML</li>
