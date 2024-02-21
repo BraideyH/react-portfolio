@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 
@@ -58,8 +58,8 @@ li {
 nav {
   margin-left: auto;
   font-size: 35px;
-  display: inline-block;
-  justify-content: space-between;
+  /* display: inline-block; */
+  /* justify-content: space-between; */
   padding-top: 15px;
   margin-right: 10px;
 }
