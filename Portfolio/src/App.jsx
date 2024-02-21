@@ -28,11 +28,11 @@ function App() {
       </div>
       </header>
       <div className="about-me">
-        <h2>About Me</h2>
+        <h2>A little bit About Me</h2>
         <h3 className="about-me-text">Hello! I'm Braidey, and I'm on an exciting journey transitioning from a background in emergency healthcare to the dynamic world of web development. While I may not have professional coding experience yet, my passion for technology and problem-solving has been a driving force behind my decision to pursue this new career path. I am currently immersing myself in learning various programming languages, frameworks, and technologies to build modern and user-friendly web applications. Through self-directed learning, online courses, and coding projects, I am developing my skills in front-end and back-end development. My background in emergency healthcare has equipped me with valuable skills in critical thinking, adaptability, and attention to detail – qualities that I am eager to bring to my new role as a web developer. I'm excited to embark on this new chapter and look forward to the opportunities and experiences that lie ahead. Feel free to explore my portfolio to see some of my coding projects and reach out if you'd like to connect or collaborate! </h3>
       </div>
       <div className='projects-text'>
-        <h2>Projects</h2>
+        <h2>Check out some of my Projects</h2>
         <div className="project-cards">
         <div className="card" >
           <img src={trafficJam} alt="Traffic-Jam app screenshot" />
@@ -68,7 +68,22 @@ function App() {
         </div>
         <div className="about-me">
         <h2>Contact Me</h2>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptas, consequuntur eum dignissimos quia dolorum ab! Vel, impedit expedita! Totam eius tempora enim nam vitae! Ipsum expedita repellendus doloribus consequuntur?</h3>
+        <form id="contact-form">
+    <div>
+        <label htmlFor="name">Name:</label>
+        <input type="text" id="name" name="name" required></input>
+    </div>
+    <div>
+        <label htmlFor="email">Email:</label>
+        <input type="email" id="email" name="email" required></input>
+    </div>
+    <div>
+        <label htmlFor="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+    </div>
+    <button type="submit">Submit</button>
+</form>
+<div id="error-message"></div>
       </div>
       <div className="about-me">
         <h2>Resume</h2>
