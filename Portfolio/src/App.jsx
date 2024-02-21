@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react'
+import './index.css'
 import myImage from './assets/picture-of-a-very-hireable-person.png';
 import trafficJam from './assets/traffic-jam.png';
 import careerCanvas from './assets/career-canvas.png';
@@ -12,7 +12,7 @@ import githubLogo from './assets/github-mark.png';
 import linkedInLogo from './assets/LI-In-bug.png';
 import downloadPNG from './assets/document-download-icon.png'
 
-function App() {
+export default function App() {
   return (
     <div>
     <header className='header'>
@@ -113,4 +113,3 @@ function App() {
   )
 }
 
-export default App
