@@ -7,6 +7,7 @@ import logoMaker from './assets/SVG-logo-maker.png';
 import passwordGenerator from './assets/password-generator.png';
 import codingQuiz from './assets/coding-quiz.png';
 import portfolio from './assets/portfolio.png';
+import resume from './assets/2024-resume.pdf';
 
 function App() {
   return (
@@ -35,33 +36,33 @@ function App() {
         <h2 id="projects-section">Check out some of my Projects</h2>
         <div className="project-cards">
         <div className="card" >
-          <img src={trafficJam} alt="Traffic-Jam app screenshot" />
-          <h2>Traffic Jam</h2>
+          <a href="https://eagersidekick.github.io/Traffic_Jam/"><img src={trafficJam} alt="Traffic-Jam app screenshot" /></a>
+          <a href="https://github.com/eagersidekick/Traffic_Jam?tab=readme-ov-file"><h2>Traffic Jam</h2></a>
           <p>Traffic Jam shows users live events around roadtrip destinations using Google Maps API and Ticketmaster API tools</p>
         </div>
         <div className="card">
-          <img src={careerCanvas} alt="Career Canvas" />
-          <h2>Career Canvas</h2>
+          <a href="https://fierce-depths-59937-afaae183c587.herokuapp.com/login"><img src={careerCanvas} alt="Career Canvas" /></a>
+          <a href="https://github.com/evan-hatley/Career-Canvas?tab=readme-ov-file"><h2>Career Canvas</h2></a>
           <p>Career Canvas provides tools for users to track job applications and include notes and statuses that flow into charts dynamically.</p>
         </div>
         <div className="card">
-          <img src={logoMaker} alt="Logo Maker" />
-          <h2>SVG Logo Maker</h2>
+          <a href="https://github.com/BraideyH/SVG-logo-maker"><img src={logoMaker} alt="Logo Maker" /></a>
+          <a href="https://github.com/BraideyH/SVG-logo-maker"><h2>SVG Logo Maker</h2></a>
           <p>This simple backend app generates a logo image based on input provided by the user such as text, color, and shape.</p>
         </div>
         <div className="card">
-          <img src={passwordGenerator} alt="Password Generator" />
-          <h2>Password Generator</h2>
+          <a href="https://braideyh.github.io/Random-Password-Generator/"><img src={passwordGenerator} alt="Password Generator" /></a>
+          <a href="https://github.com/BraideyH/Random-Password-Generator?tab=readme-ov-file"><h2>Password Generator</h2></a>
           <p>This password generator will provide users with random passwords within defined parameters such as character inclusions and string length.</p>
         </div>
         <div className="card">
-          <img src={codingQuiz} alt="Coding Quiz" />
-          <h2>Coding Quiz</h2>
+          <a href="https://braideyh.github.io/coding-quiz-app/"><img src={codingQuiz} alt="Coding Quiz" /></a>
+          <a href="https://github.com/BraideyH/coding-quiz-app?tab=readme-ov-file"><h2>Coding Quiz</h2></a>
           <p>This simple app functions as a quiz for new developers to test their knowledge.</p>
         </div>
         <div className="card">
           <img src={portfolio} alt="Portfolio" />
-          <h2>React Portfolio</h2>
+          <a href="https://github.com/BraideyH/react-portfolio"><h2>React Portfolio</h2></a>
           <p>Take a look under the hood of this application!</p>
         </div>
         </div>
@@ -88,7 +89,7 @@ function App() {
       <div className="about-me">
             <h2>Resume</h2>
             <p>Download my resume:</p>
-            <a href="/path/to/resume.pdf" id="resume-section" download>Download Resume</a>
+            <a href={resume} id="resume-section" download>Download Resume</a>
             <h3>Proficiencies</h3>
             <ul>
                 <li>React.js</li>

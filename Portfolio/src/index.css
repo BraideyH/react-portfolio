@@ -16,8 +16,8 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  color:rgb(127, 92, 44);
+  text-decoration: none;
 }
 a:hover {
   color: #535bf2;
@@ -35,7 +35,16 @@ body {
   align-items: center;
   padding: 20px;
 }
+nav li a {
+  color:rgb(127, 92, 44);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
+nav li a:hover {
+  color: rgb(203, 142, 28);
+  text-decoration: 2px underline;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -58,8 +67,6 @@ li {
 nav {
   margin-left: auto;
   font-size: 35px;
-  /* display: inline-block; */
-  /* justify-content: space-between; */
   padding-top: 15px;
   margin-right: 10px;
 }
@@ -68,7 +75,9 @@ nav {
   justify-content: center;
   margin-top: 30px;
 }
-
+.projects-text a h2 {
+  text-decoration: none;
+}
 .circular-image {
   width: 30vw;
   height: 30vw; 
