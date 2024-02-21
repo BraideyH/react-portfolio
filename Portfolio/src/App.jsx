@@ -103,6 +103,10 @@ function App() {
                 <li>JavaScript</li>
                 <li>HTML</li>
                 <li>CSS</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>SQL</li>
+                <li>Bootstrap</li>
             </ul>
         </div>
         </div>
