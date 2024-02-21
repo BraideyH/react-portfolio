@@ -86,26 +86,32 @@ li {
   text-align: center;
   color:rgb(127, 92, 44);
 }
+.about-me-text {
+  padding: 0 2rem 0 2rem;
+}
 .projects-text {
   text-align: center;
   color:rgb(127, 92, 44);
 }
 .project-cards {
   display: flex;
-  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  flex-wrap: wrap; 
   padding: 10px;
 }
 
 .card {
-  flex: 1 1 calc(25% - 20px); /* Set width for each card (adjust as needed) */
-  margin: 10px; /* Add margin around each card */
+  flex: 1 1 calc(35% - 30px);
+  margin: 10px;
   background-color: #f9f9f9;
   border-radius: 8px;
   padding: 20px;
 }
-
+.card img {
+  max-width: 100%; 
+  height: auto; 
+}
 @media (max-width: 768px) {
   .card {
-    width: calc(50% - 20px); /* Set width for each card on smaller screens */
+    width: calc(60% - 30px);
   }
 }
