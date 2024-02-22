@@ -1,4 +1,3 @@
-import React from 'react'
 import './index.css'
 import myImage from './assets/picture-of-a-very-hireable-person.png';
 import trafficJam from './assets/traffic-jam.png';
