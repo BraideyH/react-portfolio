@@ -8,7 +8,7 @@ import codingQuiz from './assets/coding-quiz.png';
 import portfolio from './assets/portfolio.png';
 import resume from './assets/2024-resume.pdf';
 import githubLogo from './assets/github-mark.png';
-import linkedInLogo from './assets/LI-In-bug.png';
+import linkedInLogo from './assets/linkedIn-logo.png';
 import downloadPNG from './assets/document-download-icon.png'
 
 export default function App() {
